@@ -133,7 +133,7 @@ footer div h2 a{
     text-decoration: none;
     color: #000000;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -180,7 +180,7 @@ footer div div{
 
 /* bouton buger */
 .menu-burger{
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 25px;
     right: 50px;
@@ -196,6 +196,86 @@ footer div div{
 
 }
 
-@media screen and (max-with: 480px){
+@media screen and (max-width: 480px){
 
+    header h1{
+        width: 350px;
+        height: 400px;
+        display: flex;
+        margin-left: 15px;
+        margin-top: 175px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+
+    }
+
+    nav ul li a{
+        display: none;
+
+    }
+
+    nav ul li form input, button{
+        display: inline;
+        
+
+    }
+
+    p{
+       margin-left: 5px;
+       margin-right: 5px;
+     
+     }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #box1{
+        width: 90%;
+        
+    }
+    
+    #box2{
+        width: 90%;  
+    
+    }
+    
+    #box3{
+        width: 90%;
+
+    }
+
+    .zoomDiv{
+        transform: none;
+
+    }
+
+    .grayscale{
+        filter: none;
+
+    }
+        
+    /**----menu-burger---**/
+
+    .menu-burger{
+        display: block;
+
+    }
+
+    .menu-burger .line-top{
+        outline: none;
+
+    }
+
+    .menu-burger .line-middle{
+        outline: none;
+
+    }
+
+    .menu-burger .line-bottom{
+        outline: none;
+
+    }
 }
